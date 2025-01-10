@@ -1,0 +1,56 @@
+.Header {
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+    display: flex;
+    color: #ffffff;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo .dome {
+    cursor: pointer;
+    height: 105px;
+    object-fit: cover;
+    width: 270px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.nav a:hover {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    transition: color .3s;
+}
+
+@media (max-width: 768px) {
+
+    .Header {
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .logo .dome {
+        cursor: pointer;
+        height: 105px;
+        width: 210px;
+    }
+
+
+}

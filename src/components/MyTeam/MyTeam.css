@@ -1,0 +1,202 @@
+.layout-main-container h1 {
+    font-family: sans-serif !important;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+   text-decoration: dotted;
+    margin-left: 85px;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+
+.con {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 7px 13px -3px rgba(0, 0, 0, .3), inset 0 -3px 0 rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    margin: auto;
+    margin-left: 17%;
+    margin-bottom: 80px !important;
+    padding: 60px 100px;
+    width: 70%;
+}
+
+.con h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.div-sec,
+.div-sec2 {
+    margin-left: 14rem;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.div3,
+.div4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.labeltxt {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.div3 input {
+
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 50px !important;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    width: 255px;
+
+}
+
+.div4 input {
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 38px;
+    padding-left: 86px;
+    padding-top: 14px;
+    text-align: center;
+    width: 255px;
+
+}
+
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.labeltxt {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.div5 input {
+
+    border: 1px solid #000;
+    border-radius: 6px;
+    height: 40px;
+    padding: 6px 20px;
+}
+
+.div5 .dropdown {
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 50px !important;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    width: 280px;
+}
+
+.div6 {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+
+.seperatediv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+
+}
+
+.press {
+    background-color: #111;
+    border-radius: 11px;
+    color: #fefefe;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin: auto;
+    margin-left: 450px;
+    width: 200px;
+
+}
+
+@media (max-width: 768px) {
+
+    .layout-main-container h1 {
+        width: 100%;
+        font-size: 26px;
+        margin-top: 125px;
+    }
+
+    .con {
+        padding: 50px;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+        width: 95%;
+    }
+
+    .div3,
+    .div4 {
+        height: auto;
+        margin: auto;
+        margin-right: 100px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .div-sec,
+    .div-sec2 {
+        width: 100%;
+        margin: auto;
+        margin-left: -20px;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .div3 input {
+        width: 135%;
+        margin: auto;
+    }
+
+    .div4 input {
+        width: 104%;
+        margin: auto;
+    }
+
+    .lab {
+        letter-spacing: -1px;
+    }
+
+    .press {
+        width: 50%;
+        height: 40px;
+        margin-left: 60px;
+    }
+
+    .div5 .dropdown {
+        width: 116%;
+        margin: auto;
+
+    }
+}

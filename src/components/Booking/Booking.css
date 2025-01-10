@@ -1,0 +1,145 @@
+.booking-conta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+.common {
+    border: 1px solid gray;
+    width: 35%;
+    border-radius: 15px;
+}
+
+.ground-info {
+    width: 100px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.ground-card {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+   
+}
+
+.ground-image {
+    width: 55%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+
+.ground-info h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ground-info p {
+    font-size: 1em;
+    margin: 5px 0;
+    margin-bottom: 80px;
+}
+
+.ground-info a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.ground-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.book-now-button {
+    display: block;
+    background-color: #0f923b;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: background-color .3s;
+
+}
+
+.book-now-button :hover {
+    text-decoration: underline;
+}
+
+.book-now-button :hover {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .common {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .booking-conta {
+        width: 100%;
+        height: auto;
+    }
+
+    .book-now-button {
+        font-size: 14px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .ground-card {
+        justify-content: center;
+        width: 92%;
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 10px;
+        grid-gap: 10px;
+        gap: 10px;
+    }
+
+    .ground-info {
+        margin-left: 38%;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    
+
+    .ground-info h3 {
+        margin: 10px;
+        margin-left: 0px;
+    }
+
+    .ground-info p {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .ground-image {
+        width: 100%;
+        height: 220px;
+        border-radius: 8px;
+
+    }
+
+}
