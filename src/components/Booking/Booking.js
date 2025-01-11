@@ -20,42 +20,42 @@ function Booking() {
             groundImg: place1,
             groundName: "Chepauk",
             groundFee: 1000,
-            location: "href=https://www.google.com/maps",
+            location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place2,
             groundName: "mahatma",
             groundFee: 1000,
-            location: "href=https://www.google.com/maps",
+            location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place3,
             groundName: "nehru",
             groundFee: 1000,
-            location: "href=https://www.google.com/maps",
+            location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place4,
             groundName: "Irunga",
             groundFee: 1000,
-            location: "href=https://www.google.com/maps",
+            location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place5,
             groundName: "Bhai",
             groundFee: 1000,
-            location: "href=https://www.google.com/maps",
+            location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place6,
             groundName: "kilpauk",
             groundFee: 1000,
-            location: "href=https://www.google.com/maps",
+            location: "https://www.google.com/maps",
         }
     ]
 

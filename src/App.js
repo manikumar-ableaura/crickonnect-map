@@ -17,10 +17,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/myteam' element={<MyTeam />} />
         <Route path='/booking' element={<Booking />} />
-
       </Routes>
-
-
     </div>
   );
 }

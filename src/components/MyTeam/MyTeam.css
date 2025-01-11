@@ -1,10 +1,8 @@
 .layout-main-container h1 {
     font-family: sans-serif !important;
     font-size: 40px;
-    letter-spacing: 1px;
     margin-top: 90px;
     margin-bottom: 50px;
-   text-decoration: dotted;
     margin-left: 85px;
     text-align: center !important;
     text-transform: uppercase;
@@ -146,6 +144,7 @@
         width: 100%;
         font-size: 26px;
         margin-top: 125px;
+        margin-left: 5px;
     }
 
     .con {
