@@ -6,10 +6,99 @@
     margin-top: 150px;
 }
 
+.Bookingdetails {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    display: block;
+    height: auto;
+    margin: 70px auto auto;
+    padding: 1rem;
+    width: 95%;
+}
+
+.Bookdet1 {
+
+    color: #000;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Bookdet2 {
+    position: relative;
+}
+
+
+.Bookdet3 {
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.Bookdet3 h3,
+.Bookdet3 p {
+
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+
+}
+
+.BBB1 {
+    color: #2ecc71;
+    font-weight: 700;
+}
+
+
+
 .common {
-    border: 1px solid gray;
+    border: 2px solid gray;
     width: 35%;
     border-radius: 15px;
+}
+
+
+.Groundlocation {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.Groundlocation p{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+
+}
+
+.Groundlocation .locationlist {
+    border: 0.5px solid hsla(0, 0%, 46%, .459);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+    height: 46px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: auto;
 }
 
 .ground-info {
@@ -18,13 +107,23 @@
     text-align: left;
 }
 
+.ground-info i {
+    color: #007bff;
+    font-size: 1em;
+}
+
+.ground-info a:hover i {
+    color: #0056b3;
+}
+
+
 .ground-card {
     display: flex;
     gap: 100px;
     width: 100%;
     padding: 30px;
     text-align: center;
-   
+
 }
 
 .ground-image {
@@ -122,7 +221,7 @@
         text-align: center;
     }
 
-    
+
 
     .ground-info h3 {
         margin: 10px;

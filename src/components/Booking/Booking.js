@@ -62,16 +62,43 @@ function Booking() {
 
     return (
         <div className="main-div">
+
+
+
+            <div className="Bookingdetails">
+                <h2 class="Bookdet1">Your Booking</h2>
+                <div class="Bookdet2">
+                    <div class="Bookdet3">
+                        <h3>DC Cricket Ground</h3><p>January 5, 2025</p><p>morning</p>
+                        <p class="BBB"><span class="BBB1">booked</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="Groundlocation"><p>2 Grounds Available in </p>
+                <select id="location" class="locationlist">
+                    <option value="" disabled="">--- Select a City ---</option>
+                    <option value="Tirupati">Tirupati</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Kerala">Kerala</option>
+                </select>
+            </div>
+
+
             <div className="booking-conta">
+
                 {groundDetails.map((item, index) => (
                     <div className="common">
+
                         <div className="ground-card"
                             key={index}>
                             <img src={item.groundImg} alt={item.groundName} className="ground-image" />
                             <div className="ground-info">
                                 <h3>{item.groundName}</h3>
                                 <p>Fee: ₹{item.groundFee}</p>
-                                <a href={item.location} target="_blank" rel="noopener noreferrer">Get directions</a>
+                                <a href={item.location} target="_blank" rel="noopener noreferrer"><i className="fas fa-map-marker-alt" style={{ marginRight: "5px" }}></i>Get directions</a>
                             </div>
                         </div>
                         <button className="book-now-button">BOOK NOW!</button>
