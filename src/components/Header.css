@@ -39,18 +39,59 @@
     transition: color .3s;
 }
 
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+}
+
 @media (max-width: 768px) {
 
     .Header {
         width: 100% !important;
         flex-wrap: wrap;
+        position: relative;
     }
 
     .logo .dome {
-        cursor: pointer;
         height: 105px;
         width: 210px;
     }
 
+
+    /* Hamburger button visibility in mobile view */
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        z-index: 10;
+    }
+
+    /* Mobile navigation menu */
+    .nav {
+        display: none; /* Initially hidden */
+        flex-direction: column;
+        background-color: #ffffff;
+        position: absolute;
+        top: 90px; /* Adjust to align with header */
+        right: 0;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        z-index: 9;
+    }
+
+    .nav ul {
+        flex-direction: column; /* Stack items vertically */
+        gap: 2rem;
+    }
+
+    .nav.active {
+        display: flex; /* Show menu when active */
+    }
 
 }

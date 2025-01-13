@@ -18,42 +18,42 @@ function Booking() {
     const groundDetails = [
         {
             groundImg: place1,
-            groundName: "Chepauk",
+            groundName: "Chepauk Ground",
             groundFee: 1000,
             location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place2,
-            groundName: "mahatma",
+            groundName: "Delhi Ground",
             groundFee: 1000,
             location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place3,
-            groundName: "nehru",
+            groundName: "Nehru Ground",
             groundFee: 1000,
             location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place4,
-            groundName: "Irunga",
+            groundName: "Mehra Ground",
             groundFee: 1000,
             location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place5,
-            groundName: "Bhai",
+            groundName: "CSK Ground",
             groundFee: 1000,
             location: "https://www.google.com/maps",
         },
 
         {
             groundImg: place6,
-            groundName: "kilpauk",
+            groundName: "Gandhi Ground",
             groundFee: 1000,
             location: "https://www.google.com/maps",
         }

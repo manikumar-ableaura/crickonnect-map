@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import logo from './img/crik.png'
 
 
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <div className="Header">
             <div className="logo">
@@ -13,16 +19,21 @@ const Header = () => {
                     src={logo}
                     alt="unknown!" />
             </div>
-            <nav className="nav">
+
+            <button className="hamburger" onClick={toggleMenu}>
+                ☰
+            </button>
+
+            <nav className={`nav ${menuOpen ? 'active' : ''}`}>
                 <ul>
-                    <li><a href="/myteam">My Team </a></li>
-                    <li><a href="/booking">Match Booking</a></li>
-                    <li><a href="/tournament">Tournaments</a></li>
-                    <li><a href="/login">Login</a></li>
+                    <li><a href="/myteam" onClick={() => setMenuOpen(false)}>My Team </a></li>
+                    <li><a href="/booking" onClick={() => setMenuOpen(false)}>Match Booking</a></li>
+                    <li><a href="/tournament" onClick={() => setMenuOpen(false)}>Tournaments</a></li>
+                    <li><a href="/login" onClick={() => setMenuOpen(false)}>Login</a></li>
                 </ul>
             </nav>
         </div>
-    );      
+    );
 };
 
 export default Header;
