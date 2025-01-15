@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Header.css';
-import logo from './img/crik.png'
-
-
+import logo from './img/crik.png';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -13,11 +12,15 @@ const Header = () => {
 
     return (
         <div className="Header">
+            {/* Use Link for the logo to navigate to the home page */}
             <div className="logo">
-                <img
-                    className="dome"
-                    src={logo}
-                    alt="unknown!" />
+                <Link to="/" onClick={() => setMenuOpen(false)}>
+                    <img
+                        className="dome"
+                        src={logo}
+                        alt="Logo"
+                    />
+                </Link>
             </div>
 
             <button className="hamburger" onClick={toggleMenu}>
@@ -26,10 +29,11 @@ const Header = () => {
 
             <nav className={`nav ${menuOpen ? 'active' : ''}`}>
                 <ul>
-                    <li><a href="/myteam" onClick={() => setMenuOpen(false)}>My Team </a></li>
-                    <li><a href="/booking" onClick={() => setMenuOpen(false)}>Match Booking</a></li>
-                    <li><a href="/tournament" onClick={() => setMenuOpen(false)}>Tournaments</a></li>
-                    <li><a href="/login" onClick={() => setMenuOpen(false)}>Login</a></li>
+                    {/* Use Link for navigation */}
+                    <li><Link to="/myteam" onClick={() => setMenuOpen(false)}>My Team</Link></li>
+                    <li><Link to="/booking" onClick={() => setMenuOpen(false)}>Match Booking</Link></li>
+                    <li><Link to="/tournament" onClick={() => setMenuOpen(false)}>Tournaments</Link></li>
+                    <li><Link to="/login" onClick={() => setMenuOpen(false)}>Login</Link></li>
                 </ul>
             </nav>
         </div>
