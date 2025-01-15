@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crickonnect/precache-manifest.09cdbf854c0a694f227f2b203c4b1a5b.js"
+  "/crickonnect/precache-manifest.6734d7900d861e43b56e43408a2d3020.js"
 );
 
 self.addEventListener('message', (event) => {
