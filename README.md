@@ -1,4 +1,4 @@
-# Crickonnect
+# Crickonnect-map
 
 Here I Created a page by using below mentioned technologies to enhance my abilities and emphasize the existing skillset by certain project and in upcoming days i would prefer to practice more complex challenges
 
