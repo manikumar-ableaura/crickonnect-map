@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crickonnect/static/css/main.ea6f1bd0.chunk.css",
+    "main.css": "/crickonnect/static/css/main.87e3a476.chunk.css",
     "main.js": "/crickonnect/static/js/main.2233a132.chunk.js",
     "main.js.map": "/crickonnect/static/js/main.2233a132.chunk.js.map",
     "runtime~main.js": "/crickonnect/static/js/runtime~main.266cdf5c.js",
@@ -8,9 +8,9 @@
     "static/js/2.72ae7ec6.chunk.js": "/crickonnect/static/js/2.72ae7ec6.chunk.js",
     "static/js/2.72ae7ec6.chunk.js.map": "/crickonnect/static/js/2.72ae7ec6.chunk.js.map",
     "index.html": "/crickonnect/index.html",
-    "precache-manifest.6a6b6452e553890706f58894d2b91f66.js": "/crickonnect/precache-manifest.6a6b6452e553890706f58894d2b91f66.js",
+    "precache-manifest.09cdbf854c0a694f227f2b203c4b1a5b.js": "/crickonnect/precache-manifest.09cdbf854c0a694f227f2b203c4b1a5b.js",
     "service-worker.js": "/crickonnect/service-worker.js",
-    "static/css/main.ea6f1bd0.chunk.css.map": "/crickonnect/static/css/main.ea6f1bd0.chunk.css.map",
+    "static/css/main.87e3a476.chunk.css.map": "/crickonnect/static/css/main.87e3a476.chunk.css.map",
     "static/media/R1.jpg": "/crickonnect/static/media/R1.75b29478.jpg",
     "static/media/R2.jpg": "/crickonnect/static/media/R2.43fee1c2.jpg",
     "static/media/R3.jpg": "/crickonnect/static/media/R3.50786bc6.jpg",
