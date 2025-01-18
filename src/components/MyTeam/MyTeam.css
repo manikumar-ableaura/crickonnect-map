@@ -56,7 +56,7 @@
     border: 1px solid #000;
     border-radius: 10px;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     height: 50px !important;
     letter-spacing: 1px;
     padding-left: 20px;
@@ -143,7 +143,7 @@
     .layout-main-container h1 {
         width: 100%;
         font-size: 26px;
-        margin-top: 125px;
+        margin-top: 100px;
         margin-left: 5px;
     }
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './Header.css';
 import logo from './img/crik.png';
 
@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <div className="Header">
-            {/* Use Link for the logo to navigate to the home page */}
+           
             <div className="logo">
                 <Link to="/" onClick={() => setMenuOpen(false)}>
                     <img
@@ -29,7 +29,7 @@ const Header = () => {
 
             <nav className={`nav ${menuOpen ? 'active' : ''}`}>
                 <ul>
-                    {/* Use Link for navigation */}
+                 
                     <li><Link to="/myteam" onClick={() => setMenuOpen(false)}>My Team</Link></li>
                     <li><Link to="/booking" onClick={() => setMenuOpen(false)}>Match Booking</Link></li>
                     <li><Link to="/tournament" onClick={() => setMenuOpen(false)}>Tournaments</Link></li>
@@ -41,3 +41,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
