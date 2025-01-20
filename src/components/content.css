@@ -105,9 +105,6 @@
     padding: 8px 20px;
 }
 
-
-
-
 .text-block3 p {
     color: #fffffff5;
     font-family: cursive;
@@ -116,7 +113,6 @@
     margin-top: 0;
     text-align: left;
     text-shadow: 2px 2px #000;
-
 }
 
 .text-block3 h3 {
@@ -149,8 +145,6 @@
         padding-right: 0px;
 
     }
-
-
     .content,
     .content1,
     .content2 {
@@ -158,8 +152,6 @@
         height: 370px;
         width: 100%;
     }
-
-
     .text-block1,
     .text-block2,
     .text-block3 {
@@ -167,7 +159,6 @@
         width: 100%;
         left: 1%;
     }
-
     .text-block1 p {
         color: #fffffff5;
         font-family: cursive;
@@ -176,8 +167,5 @@
         margin-top: 0;
         text-align: left;
         text-shadow: 2px 2px #000;
-
     }
-
-
 }

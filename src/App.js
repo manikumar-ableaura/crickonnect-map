@@ -7,6 +7,7 @@ import Login from './components/Login/Login';
 import MyTeam from './components/MyTeam/MyTeam';
 import Booking from './components/Booking/Booking';
 import MyTournament from './components/MyTournament/MyTournament';
+import Signup from './components/Signup/Signup';
 
 
 
@@ -21,6 +22,8 @@ function App() {
         <Route path='/myteam' element={<MyTeam />} />
         <Route path='/booking' element={<Booking />} />
         <Route path='/tournament' element={<MyTournament />} />
+        <Route path='/signup' element={<Signup />} />
+
       </Routes>
 
       <Footer />
