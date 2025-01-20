@@ -12,7 +12,7 @@ function Login() {
 
                 <div className="div1">
                     <div className="div2">
-                    <h1><span className="custom-underline">Login or Create Your Account</span></h1>
+                    <h1>Login or Create Your Account</h1>
 
                         <div className="divi3">
                             <label class="labeltext">Email / Mobile Number</label>

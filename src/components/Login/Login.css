@@ -12,25 +12,23 @@
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 7px 13px -3px rgba(0, 0, 0, .3), inset 0 -3px 0 rgba(0, 0, 0, .2);
     height: 100%;
+    width: 100%;
     padding: 40px 30px;
 
 }
 
 .main-container h1 {
     font-family: sans-serif !important;
-    font-size: 21px;
+    font-size: 20px;
     letter-spacing: 0px;
     margin-top: 70px;
     margin-bottom: 70px;
     text-align: center !important;
-    text-transform: uppercase;
+  
     
 }
 
-.custom-underline {
-    text-decoration: underline;
-    text-decoration-thickness: 1px; 
-}
+
 
 
 .divi3 {
@@ -105,4 +103,21 @@
 @media (max-width: 768px) {
     .main-container{
         width: 100%;
-    }}
+    }
+
+    .div1{
+
+        max-width: 315px;
+        margin-left: -20px;
+    }
+
+    .div2 {
+  
+        width: 94%;
+        
+    }
+    
+
+}
+
+  

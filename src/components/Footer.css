@@ -54,13 +54,13 @@
 
 
     .footer-module1 {
-
+        
         width: 100%;
+        text-align: center;
         gap: 2rem;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr;
-        padding-left: 14px;
-        padding-right: 14px;
+      
 
     }
 }

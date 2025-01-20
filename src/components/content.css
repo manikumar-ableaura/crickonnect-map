@@ -157,7 +157,7 @@
     .text-block3 {
         margin-top: -50px;
         width: 100%;
-        left: 1%;
+        left: 0%;
     }
     .text-block1 p {
         color: #fffffff5;
@@ -168,4 +168,6 @@
         text-align: left;
         text-shadow: 2px 2px #000;
     }
+
+  
 }

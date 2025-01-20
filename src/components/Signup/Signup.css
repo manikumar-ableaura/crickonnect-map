@@ -156,5 +156,17 @@
 
 @media (max-width: 768px) {
     .main-sign{
-        width: 100%;
-    }}
+        width: 90%;
+    }
+
+    .con1{
+        width:100%;
+        padding: 20px;
+    }
+
+  
+    
+
+
+
+}

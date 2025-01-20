@@ -1,3 +1,9 @@
+.main-div{
+    margin: 5px;
+}
+
+
+
 .booking-conta {
     display: flex;
     flex-wrap: wrap;
@@ -61,12 +67,11 @@
     font-size: 18px;
     margin-bottom: 0;
     margin-top: 0;
-    text-transform: uppercase;
-
+    
 }
 
 .BBB1 {
-    color: #2ecc71;
+    color: #ffc400;
     font-weight: 700;
 }
 
@@ -166,7 +171,7 @@
 
 .book-now-button {
     display: block;
-    background-color: #0f923b;
+    background-color: #073216;
     border: none;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -184,12 +189,9 @@
 
 }
 
-.book-now-button :hover {
-    text-decoration: underline;
-}
 
 .book-now-button :hover {
-    color: #007bff;
+    color: #7495b8;
     text-decoration: none;
     font-size: 1em;
 }
@@ -250,8 +252,8 @@
     }
 
     .ground-info {
-        margin-left: 5%;
-        font-size: 13px;
+        padding-left: 10px;
+        font-size: 12px;
         text-align: left;
     }
 
@@ -300,4 +302,6 @@
         text-transform: uppercase;
 
     }
+
+    
 }
