@@ -1,0 +1,172 @@
+.con1 {
+    display: block;
+    height: auto;
+    margin: 40px auto auto;
+    max-width: 470px;
+    padding: 30px;
+    width: 100%;
+}
+
+.con2 {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 7px 13px -3px rgba(0, 0, 0, .3), inset 0 -3px 0 rgba(0, 0, 0, .2);
+    height: 100%;
+    padding: 40px 30px;
+
+}
+
+.main-sign h1 {
+    font-family: sans-serif !important;
+    font-size: 21px;
+    letter-spacing: 0px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center !important;
+    text-transform: uppercase;
+    
+}
+
+.custom-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+}
+
+
+.divide1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.labeltext {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.divide1 input {
+
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 50px !important;
+    letter-spacing: 1px;
+    padding-left: 20px;
+
+}
+
+
+.divide2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.labeltext {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.divide2 input {
+
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 50px !important;
+    letter-spacing: 1px;
+    padding-left: 20px;
+
+}
+
+
+.divide3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.labeltext {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.divide3 input {
+
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 50px !important;
+    letter-spacing: 1px;
+    padding-left: 20px;
+
+}
+
+
+.divide4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.divide4 input {
+
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 50px !important;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+.con2 a{
+    font-size: 13px;
+    color: #00a8ff !important;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-decoration: underline;
+
+}
+
+.con2 button{
+    background-color: #000;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 46px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.con2 p{
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-sign{
+        width: 90%;
+    }
+
+    .con1{
+        width:100%;
+        padding: 20px;
+    }
+
+  
+    
+
+
+
+}
