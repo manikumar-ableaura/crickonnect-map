@@ -3,10 +3,12 @@ import React, { useState } from "react";
 import "./MyTeam.css";
 
 function MyTeam() {
-    const [teamName, setTeamName] = useState(""); 
-    const [teamLogo, setTeamLogo] = useState("");
-    const [teamLocation, setTeamLocation] = useState(""); 
-    const [hasOwnGround, setHasOwnGround] = useState(""); 
+    const [formData, setFormData] = useState({
+        teamName: "",
+        teamLogo: "",
+        teamLocation: "",
+        hasOwnGround: ""
+    });
 
     return (
         <>
@@ -18,8 +20,14 @@ function MyTeam() {
                             <label className="labeltxt">Team name*</label>
                             <input 
                                 type="text" 
-                                value={teamName} 
-                                onChange={(e) => setTeamName(e.target.value)} 
+                                value={formData.teamName} 
+                                onChange={(event) => {
+                                    setFormData({
+                                        ...formData,
+                                        teamName: event.target.value
+                                    });
+                                    console.log(event.target.value);  
+                                }} 
                                 placeholder="Enter team name"
                             />
                         </div>
@@ -27,8 +35,14 @@ function MyTeam() {
                             <label className="labeltxt">Team logo*</label>
                             <input 
                                 type="file" 
-                                value={teamLogo} 
-                                onChange={(e) => setTeamLogo(e.target.value)} 
+                                value={formData.teamLogo} 
+                                onChange={(event) => {
+                                    setFormData({
+                                        ...formData,
+                                        teamLogo: event.target.value
+                                    });
+                                    console.log(event.target.value);  
+                                }} 
                             />
                         </div>
                     </div>
@@ -38,8 +52,14 @@ function MyTeam() {
                             <select 
                                 className="dropdown" 
                                 name="teamlocation" 
-                                value={teamLocation} 
-                                onChange={(e) => setTeamLocation(e.target.value)} 
+                                value={formData.teamLocation} 
+                                onChange={(event) => {
+                                    setFormData({
+                                        ...formData,
+                                        teamLocation: event.target.value
+                                    });
+                                    console.log(event.target.value);  
+                                }} 
                                 required
                             >
                                 <option value="placeholder" disabled>Select a location</option>
@@ -58,8 +78,14 @@ function MyTeam() {
                                         type="radio" 
                                         name="hasOwnGround" 
                                         value="Yes" 
-                                        checked={hasOwnGround === "Yes"} 
-                                        onChange={(e) => setHasOwnGround(e.target.value)} 
+                                        checked={formData.hasOwnGround === "Yes"} 
+                                        onChange={(event) => {
+                                            setFormData({
+                                                ...formData,
+                                                hasOwnGround: event.target.value
+                                            });
+                                            console.log(event.target.value);  
+                                        }} 
                                     /> Yes
                                 </label>
                                 <label>
@@ -67,8 +93,14 @@ function MyTeam() {
                                         type="radio" 
                                         name="hasOwnGround" 
                                         value="No" 
-                                        checked={hasOwnGround === "No"} 
-                                        onChange={(e) => setHasOwnGround(e.target.value)} 
+                                        checked={formData.hasOwnGround === "No"} 
+                                        onChange={(event) => {
+                                            setFormData({
+                                                ...formData,
+                                                hasOwnGround: event.target.value
+                                            });
+                                            console.log(event.target.value);  
+                                        }} 
                                     /> No
                                 </label>
                             </div>

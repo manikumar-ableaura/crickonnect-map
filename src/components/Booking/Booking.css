@@ -119,7 +119,7 @@
 .ground-info {
     width: 100%;
     margin-top: 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .ground-info i {
@@ -254,7 +254,7 @@
     .ground-info {
         padding-left: 10px;
         font-size: 12px;
-        text-align: left;
+        text-align: center;
     }
 
 

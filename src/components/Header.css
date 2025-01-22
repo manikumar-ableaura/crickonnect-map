@@ -45,7 +45,7 @@
 @media (max-width: 768px) {
 
     .Header {
-        width: 83% !important;
+        width: 84% !important;
         flex-wrap: wrap;
         position: relative;
         margin-top: -20px;
@@ -57,23 +57,19 @@
         margin-left: -40px;
     }
 
-
-    
     .hamburger {
         display: block;
         position: absolute;
         top: 50px;
         right: 20px;
-       
     }
 
-  
     .nav {
-        display: none; 
+        display: none;
         flex-direction: column;
         background-color: #ffffff;
         position: absolute;
-        top: 90px; 
+        top: 90px;
         right: 0;
         width: 100%;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -82,13 +78,13 @@
     }
 
     .nav ul {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 30px;
         margin-left: 10px;
     }
 
     .nav.active {
-        display: flex; 
+        display: flex;
     }
 
 }

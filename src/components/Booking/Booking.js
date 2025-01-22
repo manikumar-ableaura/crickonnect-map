@@ -77,7 +77,7 @@ function Booking() {
 
             <div className="Groundlocation"><p>2 Grounds Available in </p>
                 <select id="location" class="locationlist">
-                    <option value="" disabled="">--- Select a City ---</option>
+                    <option value="" disabled="">-- Select a City --</option>
                     <option value="Tirupati">Tirupati</option>
                     <option value="Coimbatore">Coimbatore</option>
                     <option value="Chennai">Chennai</option>
