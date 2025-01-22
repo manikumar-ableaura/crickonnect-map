@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/crickonnect.map/static/css/main.72e783ab.chunk.css",
-    "main.js": "/crickonnect.map/static/js/main.69262930.chunk.js",
-    "main.js.map": "/crickonnect.map/static/js/main.69262930.chunk.js.map",
-    "runtime~main.js": "/crickonnect.map/static/js/runtime~main.76824470.js",
-    "runtime~main.js.map": "/crickonnect.map/static/js/runtime~main.76824470.js.map",
-    "static/js/2.52d6f074.chunk.js": "/crickonnect.map/static/js/2.52d6f074.chunk.js",
-    "static/js/2.52d6f074.chunk.js.map": "/crickonnect.map/static/js/2.52d6f074.chunk.js.map",
-    "index.html": "/crickonnect.map/index.html",
-    "precache-manifest.d480316b88cbc084d953507fa0189cb3.js": "/crickonnect.map/precache-manifest.d480316b88cbc084d953507fa0189cb3.js",
-    "service-worker.js": "/crickonnect.map/service-worker.js",
-    "static/css/main.72e783ab.chunk.css.map": "/crickonnect.map/static/css/main.72e783ab.chunk.css.map",
-    "static/media/R1.jpg": "/crickonnect.map/static/media/R1.75b29478.jpg",
-    "static/media/R2.jpg": "/crickonnect.map/static/media/R2.43fee1c2.jpg",
-    "static/media/R3.jpg": "/crickonnect.map/static/media/R3.50786bc6.jpg",
-    "static/media/a.jpg": "/crickonnect.map/static/media/a.db93c381.jpg",
-    "static/media/crik.png": "/crickonnect.map/static/media/crik.e4771ee6.png",
-    "static/media/g3.jpg": "/crickonnect.map/static/media/g3.841d2197.jpg"
+    "main.css": "/crickonnect-map/static/css/main.8b901480.chunk.css",
+    "main.js": "/crickonnect-map/static/js/main.97338264.chunk.js",
+    "main.js.map": "/crickonnect-map/static/js/main.97338264.chunk.js.map",
+    "runtime~main.js": "/crickonnect-map/static/js/runtime~main.bf21a1df.js",
+    "runtime~main.js.map": "/crickonnect-map/static/js/runtime~main.bf21a1df.js.map",
+    "static/js/2.790af9b1.chunk.js": "/crickonnect-map/static/js/2.790af9b1.chunk.js",
+    "static/js/2.790af9b1.chunk.js.map": "/crickonnect-map/static/js/2.790af9b1.chunk.js.map",
+    "index.html": "/crickonnect-map/index.html",
+    "precache-manifest.3d0d78393cf93ae0fe1cb2b597bdf6c3.js": "/crickonnect-map/precache-manifest.3d0d78393cf93ae0fe1cb2b597bdf6c3.js",
+    "service-worker.js": "/crickonnect-map/service-worker.js",
+    "static/css/main.8b901480.chunk.css.map": "/crickonnect-map/static/css/main.8b901480.chunk.css.map",
+    "static/media/R1.jpg": "/crickonnect-map/static/media/R1.75b29478.jpg",
+    "static/media/R2.jpg": "/crickonnect-map/static/media/R2.43fee1c2.jpg",
+    "static/media/R3.jpg": "/crickonnect-map/static/media/R3.50786bc6.jpg",
+    "static/media/a.jpg": "/crickonnect-map/static/media/a.db93c381.jpg",
+    "static/media/crik.png": "/crickonnect-map/static/media/crik.e4771ee6.png",
+    "static/media/g3.jpg": "/crickonnect-map/static/media/g3.841d2197.jpg"
   }
 }
