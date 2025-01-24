@@ -39,7 +39,7 @@
 
 .text-block1 p {
     color: #fffffff5;
-    font-family: monospace;
+    font-family: cursive;
     font-size: 20px;
     width: 99%;
     margin-top: 0;
@@ -145,6 +145,7 @@
         padding-right: 0px;
 
     }
+
     .content,
     .content1,
     .content2 {
@@ -152,6 +153,7 @@
         height: 370px;
         width: 100%;
     }
+
     .text-block1,
     .text-block2,
     .text-block3 {
@@ -159,15 +161,15 @@
         width: 100%;
         left: 0%;
     }
-    .text-block1 p {
-        color: #fffffff5;
-        font-family: cursive;
-        font-size: 20px;
-        width: 99%;
-        margin-top: 0;
-        text-align: left;
-        text-shadow: 2px 2px #000;
+
+    .text-block1 p,
+    .text-block2 p,
+    .text-block3 p {
+
+        font-family: monospace;
+
     }
 
   
+
 }
