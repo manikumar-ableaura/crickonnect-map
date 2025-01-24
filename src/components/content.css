@@ -39,7 +39,7 @@
 
 .text-block1 p {
     color: #fffffff5;
-    font-family: cursive;
+    font-family: monospace;
     font-size: 20px;
     width: 99%;
     margin-top: 0;
@@ -63,7 +63,7 @@
     border-radius: 50px;
     color: #111;
     cursor: pointer;
-    font-family: cursive;
+    font-family: monospace;
     font-size: 18px;
     margin-top: 14px;
     padding: 8px 20px;
