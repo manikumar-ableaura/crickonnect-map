@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../Button/Button";
 
 import "./MyTeam.css";
 
@@ -106,7 +107,7 @@ function MyTeam() {
                             </div>
                         </div>
                     </div>
-                    <button type="submit" className="press">Submit</button>
+                    <Button btnname= "Submit"/>
                 </div>
             </main>
         </>

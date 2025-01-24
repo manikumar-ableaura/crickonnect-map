@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Button from "../Button/Button";
 import "./Login.css";
 
 function Login() {
@@ -43,7 +43,7 @@ function Login() {
 
                     <a href="#">Forgot Password</a>
 
-                    <button>Login</button>
+                   <Button btnname= "Login"/>
 
                     <p>Don't have an account? <a href="/signup/">Sign-up</a></p>
 

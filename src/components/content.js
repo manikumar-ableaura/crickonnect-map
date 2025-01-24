@@ -3,6 +3,7 @@ import './content.css';
 import R1 from './img/R1.jpg';
 import R2 from './img/R2.jpg';
 import R3 from './img/R3.jpg';
+import Button from "./Button/Button";
 
 
 
@@ -19,7 +20,7 @@ function Content() {
                 <div className="text-block1">
                     <h3>Create Team</h3>
                     <p>Unleash Your Squad – Form the Ultimate Team!</p>
-                    <button >Create</button>
+                 <Button btnname={"Create"}/>
                 </div>
             </div>
             <div className="container1">
@@ -31,7 +32,7 @@ function Content() {
                 <div className="text-block2">
                     <h3>Match Booking</h3>
                     <p>Seize the Pitch – Book Your Battle Now!</p>
-                    <button>Book</button>
+                    <Button btnname={"Book"}/>
                 </div>
             </div>
             <div className="container2">
@@ -43,7 +44,7 @@ function Content() {
                 <div className="text-block3">
                     <h3>Tourmnament Booking</h3>
                     <p>Claim Glory - Enter the tournament Arena!</p>
-                    <button>Join</button>
+                    <Button btnname={"Join"}/>
                 </div>
             </div>
         </div>

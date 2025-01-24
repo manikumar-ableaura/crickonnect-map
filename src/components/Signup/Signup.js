@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Signup.css';  
+import Button from "../Button/Button";
 
 
 function Signup() {
@@ -74,7 +75,7 @@ function Signup() {
                         />
                     </div>
 
-                    <button type="submit">Create Account</button>
+              <Button btnname={"Create Account"} />
                 </div>
             </div>
         </main>
