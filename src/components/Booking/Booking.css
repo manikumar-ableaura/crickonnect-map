@@ -71,7 +71,7 @@
 }
 
 .BBB1 {
-    color: #ffc400;
+    color: #00bcd4;
     font-weight: 700;
 }
 
@@ -252,7 +252,7 @@
     }
 
     .ground-info {
-        padding-left: 10px;
+        padding-left: 6px;
         font-size: 12px;
         text-align: center;
     }

@@ -70,7 +70,7 @@ function Booking() {
                 <div class="Bookdet2">
                     <div class="Bookdet3">
                         <h3>DC Cricket Ground</h3><p>January 5, 2025</p><p>morning</p>
-                        <p class="BBB"><span class="BBB1">Pending</span></p>
+                        <p class="BBB"><span class="BBB1">Booked</span></p>
                     </div>
                 </div>
             </div>
