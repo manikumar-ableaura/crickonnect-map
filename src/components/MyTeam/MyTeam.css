@@ -28,13 +28,19 @@
     margin-top: 20px;
 }
 
-.div-sec,
-.div-sec2 {
-    margin-left: 14rem;
+.div-sec {
+    justify-content: center;
     display: flex;
     gap: 100px;
     margin-bottom: 50px;
-    margin-right: 100px;
+}
+
+.div-sec2 {
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+    padding-right: 75px;
 }
 
 .div3,
@@ -120,8 +126,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    position: relative;
-    width: 100%;
 
 }
 
@@ -166,6 +170,7 @@
 
     .div-sec,
     .div-sec2 {
+        justify-content: center;
         width: 100%;
         margin: auto;
         margin-left: -20px;
