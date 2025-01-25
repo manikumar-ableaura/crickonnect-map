@@ -50,7 +50,7 @@
 
 .text-block1 h3 {
     color: #fffffff5;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 30px;
     margin-bottom: 8px;
     text-shadow: 2px 2px #437c9c;
@@ -159,6 +159,7 @@
     .text-block1 h3,
     .text-block2 h3,
     .text-block3 h3 {
+        font-family: monospace;
         text-shadow: 2px 2px #9e9e9e75;
     }
 
