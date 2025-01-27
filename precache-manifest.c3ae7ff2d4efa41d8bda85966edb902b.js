@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6a2f319e28d60b584e27e32a5f33284",
+    "revision": "a93db48bc6c89e42ee7eea525c7a9a1a",
     "url": "/crickonnect-map/index.html"
   },
   {
-    "revision": "d46da0e88d47638975d7",
-    "url": "/crickonnect-map/static/css/main.72b6470f.chunk.css"
+    "revision": "38ad502dec35677be0ba",
+    "url": "/crickonnect-map/static/css/main.d56ec93d.chunk.css"
   },
   {
-    "revision": "d04ff45025a045632fe8",
-    "url": "/crickonnect-map/static/js/2.790af9b1.chunk.js"
+    "revision": "5c43a1d70e49baadcc00",
+    "url": "/crickonnect-map/static/js/2.642c0d9b.chunk.js"
   },
   {
-    "revision": "d46da0e88d47638975d7",
-    "url": "/crickonnect-map/static/js/main.915f8b42.chunk.js"
+    "revision": "38ad502dec35677be0ba",
+    "url": "/crickonnect-map/static/js/main.5eda6940.chunk.js"
   },
   {
     "revision": "74abb85dec0e4b4a55c7",
