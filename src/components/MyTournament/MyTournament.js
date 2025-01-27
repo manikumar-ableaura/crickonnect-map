@@ -7,7 +7,7 @@ function MyTournament() {
 
         <main className="Layout-main">
             <div className="main-section"></div>
-            <div className="info">
+            <div className="infor">
             <h1>The Tournament Arena is Under Construction</h1>
             <p>We're preparing something epic. Stay tuned to book the cricket tournaments!</p>
             </div>

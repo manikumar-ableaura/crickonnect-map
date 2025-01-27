@@ -112,7 +112,7 @@
     font-size: 20px;
     height: 46px;
     padding: 10px 20px;
-    text-transform: uppercase;
+   
     width: auto;
 }
 
@@ -177,7 +177,7 @@
     border-bottom-right-radius: 8px;
     color: #fff;
     cursor: pointer;
-    font-family: cursive;
+    font-family: Tangerine;
     font-size: 16px;
     font-weight: 700;
     width: 100%;
@@ -204,7 +204,7 @@
     }
 
     .Bookdet1 {
-
+        font-family: sans-serif;
         font-size: 20px;
         margin-bottom: 20px;
         padding-left: 20px;

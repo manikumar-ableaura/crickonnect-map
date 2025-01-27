@@ -6,14 +6,14 @@
     padding-right: 15px;
 }
 
-.info {
+.infor {
 
     margin-bottom: 140px;
     margin-top: 140px;
 
 }
 
-.info h1 {
+.infor h1 {
 
     color: #111;
     font-family: monospace;
@@ -26,7 +26,7 @@
 
 }
 
-.info p {
+.infor p {
 
     color: #111;
     font-family: sans-serif;
@@ -38,17 +38,17 @@
 
 @media (max-width:768px) {
 
-    .info h1 {
+    .infor h1 {
         color: #111;
         font-family: sans-serif;
-        font-size: 29px !important;
+        font-size: 25px !important;
         letter-spacing: -2.1px !important;
         text-align: center;
         text-transform: uppercase;
     }
 
-    .info p{
-        font-size: 24px;
+    .infor p{
+        font-size: 16px;
         margin-top: 45px;
     }
 
