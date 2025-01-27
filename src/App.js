@@ -9,26 +9,24 @@ import Booking from './components/Booking/Booking';
 import MyTournament from './components/MyTournament/MyTournament';
 import Signup from './components/Signup/Signup';
 
-
-
 function App() {
   return (
-    <div>
-      <Header />
-     
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/myteam' element={<MyTeam />} />
-        <Route path='/booking' element={<Booking />} />
-        <Route path='/tournament' element={<MyTournament />} />
-        <Route path='/signup' element={<Signup />} />
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/myteam" element={<MyTeam />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/tournament" element={<MyTournament />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+        <Footer />
+      </div>
 
-      </Routes>
-
-      <Footer />
-    </div>
   );
 }
 
-export default App;
+
+
+export default App
