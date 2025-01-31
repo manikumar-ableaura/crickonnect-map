@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";  
-import "./Login.css";
+import "./forgot.css";
 
-function Login() {
+function Forgot() {
     const [formdata, setformdata] = useState({
-        emailOrMobile: "",
+        email: "",
         password: "",
     });
 
@@ -13,16 +13,16 @@ function Login() {
         <main className="main-container">
             <div className="div1">
                 <div className="div2">
-                    <h1>Login or Create Your Account</h1>
+                    <h1>Create Your Account</h1>
 
                     <div className="divi3">
-                        <label className="labeltext">Email / Mobile Number</label>
+                        <label className="labeltext">Email</label>
                         <input
                             type="text"
                             placeholder="Email or Phone"
-                            value={formdata.emailOrMobile}
+                            value={formdata.email}
                             onChange={(event) => {
-                                setformdata({ ...formdata, emailOrMobile: event.target.value });
+                                setformdata({ ...formdata, email: event.target.value }); // Updating the email key
                                 console.log(event.target.value); 
                             }}
                         />
@@ -35,18 +35,16 @@ function Login() {
                             placeholder="Password"
                             value={formdata.password}
                             onChange={(event) => {
-                                setformdata({ ...formdata, password: event.target.value });
+                                setformdata({ ...formdata, password: event.target.value }); // Updating the password key
                                 console.log(event.target.value); 
                             }}
                         />
                     </div>
 
-                   
-                    <Link to="/forgot">Forgot Password</Link>
+                    <Link to="/forgot-password">Forgot Password</Link> {/* Updated to Link component */}
 
                     <Button btnname="Login" />
 
-                    
                     <p>Don't have an account? <Link to="/signup">Sign-up</Link></p>
                 </div>
             </div>
@@ -54,4 +52,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default Forgot;

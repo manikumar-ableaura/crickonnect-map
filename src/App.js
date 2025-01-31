@@ -8,21 +8,23 @@ import MyTeam from './components/MyTeam/MyTeam';
 import Booking from './components/Booking/Booking';
 import MyTournament from './components/MyTournament/MyTournament';
 import Signup from './components/Signup/Signup';
+import Forgot from './components/forgot/forgot';
 
 function App() {
   return (
-      <div>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/myteam" element={<MyTeam />} />
-          <Route path="/booking" element={<Booking />} />
-          <Route path="/tournament" element={<MyTournament />} />
-          <Route path="/signup" element={<Signup />} />
-        </Routes>
-        <Footer />
-      </div>
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="login" element={<Login />} />
+        <Route path="myteam" element={<MyTeam />} />
+        <Route path="booking" element={<Booking />} />
+        <Route path="tournament" element={<MyTournament />} />
+        <Route path="signup" element={<Signup />} />
+        <Route path="forgot" element={<Forgot />} />
+      </Routes>
+      <Footer />
+    </div>
 
   );
 }

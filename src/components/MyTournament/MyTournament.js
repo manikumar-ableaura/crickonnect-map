@@ -12,13 +12,7 @@ function MyTournament() {
             <p>We're preparing something epic. Stay tuned to book the cricket tournaments!</p>
             </div>
 
-
-
-
-
         </main>
-
-
     )
 
 }
